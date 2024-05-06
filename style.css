@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(71, 71, 71);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.logo a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.profile {
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+}
+
+.profile1 {
+    margin-left: 40px;
+}
+
+.profile1 img {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile1 h1 {
+    text-decoration: none;
+    color: #000000;
+}
+
+.profile1 p {
+    text-decoration: none;
+    color: #000000;
+}
+.profile2 {
+    margin-left: 40px;
+}
+
+.profile2 img {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.profile2 h1 {
+    text-decoration: none;
+    color: #000000;
+}
+
+.profile2 p {
+    text-decoration: none;
+    color: #000000;
+}
+.profile3 {
+    margin-left: 40px;
+}
+
+.profile3 img {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile3 h1 {
+    text-decoration: none;
+    color: #000000;
+}
+
+.profile3 p {
+    text-decoration: none;
+    color: #000000;
+}
+
+.wrapper {
+    width: 500px;
+    height: 300px;
+    padding: 50px;
+    border-radius: 15px;
+    background: white;
+    margin-left: 150px;
+}
+
+.picture-gif {
+    justify-content: right;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.picture-gif h1{
+    display: flex;
+    color: #ff0000;
+}
+
+.picture-gif img {
+    border-radius: 20%;
+}
+
+.picture-gif2 {
+    justify-content: right;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.picture-gif2 h1{
+    display: flex;
+    color: #1aff00;
+}
+
+.picture-gif2 img {
+    border-radius: 20%;
+}
